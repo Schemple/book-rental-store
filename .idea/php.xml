@@ -139,6 +139,8 @@
       <path value="$PROJECT_DIR$/src/vendor/laravel/prompts" />
       <path value="$PROJECT_DIR$/src/vendor/laravel/sail" />
       <path value="$PROJECT_DIR$/src/vendor/laravel/pint" />
+      <path value="$PROJECT_DIR$/src/vendor/intervention/image" />
+      <path value="$PROJECT_DIR$/src/vendor/intervention/gif" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.2" />
