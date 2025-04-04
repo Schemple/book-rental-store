@@ -2,14 +2,10 @@
 
 namespace App\Models;
 
-use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
 class Rental extends Model
 {
-    /** @use HasFactory<\Database\Factories\RentalFactory> */
-    use HasFactory;
-
     protected $fillable = []; // 'user_id', 'customer_id', 'rental_date', 'due_date', 'status', 'deposit', 'rental_fee', 'refund_amount', 'penalty_fee', 'late_fee'
 
     public function customer()
