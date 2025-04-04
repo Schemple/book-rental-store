@@ -24,11 +24,6 @@ class BookRepositoryEloquent extends BaseRepository implements BookRepository
         return Book::class;
     }
 
-
-
-    /**
-     * Boot up the repository, pushing criteria
-     */
     public function boot()
     {
         $this->pushCriteria(app(RequestCriteria::class));

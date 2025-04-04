@@ -13,7 +13,7 @@ class Book extends Model implements Transformable
     use HasFactory;
     use TransformableTrait;
 
-    protected $fillable = []; // 'title', 'category_id', 'author',' quantity', 'price', 'image', 'description'
+    protected $fillable = ['title', 'category_id', 'author','quantity','image', 'price', 'description'];
 
     public function category()
     {
